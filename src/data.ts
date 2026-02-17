@@ -6,7 +6,8 @@ export const personalInfo = {
     "I build scalable, high-performance web applications with clean architecture and sharp attention to detail.",
   email: "romark6@gmail.com",
   github: "https://github.com/RomanRiezanov",
-  linkedin: "https://www.linkedin.com/in/RomanRiezanov",
+  linkedin: "https://www.linkedin.com/in/roman-riezanov-789928157/",
+  telegram: "https://t.me/RomanRiezanov",
   resumePath: "/CV_Roman_Riezanov.pdf",
 };
 

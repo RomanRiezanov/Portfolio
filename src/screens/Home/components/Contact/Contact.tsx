@@ -9,6 +9,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
   MailIcon,
+  TelegramIcon,
 } from "../Icons";
 import { Section } from "../Section/Section";
 
@@ -34,21 +35,32 @@ export function Contact() {
           <a
             href={`mailto:${personalInfo.email}`}
             className={styles.link}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <MailIcon size={18} />
             {personalInfo.email}
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                copyEmail();
+              }}
+              className={`${styles.copyBtn} ${copied ? styles.copied : ""}`}
+              aria-label="Copy email address"
+              title={copied ? "Copied!" : "Copy email"}
+            >
+              {copied ? <CheckIcon size={14} /> : <CopyIcon size={14} />}
+            </button>
           </a>
 
-          <button
-            onClick={copyEmail}
-            className={`${styles.copyBtn} ${copied ? styles.copied : ""}`}
-            aria-label="Copy email address"
+          <a
+            href={personalInfo.telegram}
+            className={styles.link}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            {copied ? <CheckIcon size={18} /> : <CopyIcon size={18} />}
-            {copied ? "Copied!" : "Copy Email"}
-          </button>
+            <TelegramIcon size={18} />
+            Telegram
+          </a>
 
           <a
             href={personalInfo.github}
