@@ -8,7 +8,8 @@ import { Section } from "../Section/Section";
 import styles from "./Projects.module.scss";
 
 function getScreenshotUrl(url: string) {
-  return `https://image.thum.io/get/width/600/crop/400/noanimate/${url}`;
+  const encoded = encodeURIComponent(url);
+  return `https://s.wordpress.com/mshots/v1/${encoded}?w=600&h=400`;
 }
 
 export function Projects() {

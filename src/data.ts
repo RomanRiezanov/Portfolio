@@ -85,6 +85,69 @@ export const projects = [
       "AI-powered technology company website with modern design and interactive product presentations.",
     stack: ["React", "TypeScript", "Next.js", "Tailwind"],
   },
+  {
+    title: "ArtGenix",
+    url: "https://art-genix.com/",
+    description:
+      "Creative AI-driven art platform with generative tools and interactive gallery experience.",
+    stack: ["React", "Next.js", "TypeScript", "Tailwind"],
+  },
+  {
+    title: "Inspire",
+    url: "https://ai-inspire.com/",
+    description:
+      "AI-powered inspiration platform helping users discover creative ideas and content.",
+    stack: ["React", "TypeScript", "Redux", "SCSS"],
+  },
+  {
+    title: "Learn IT Hub",
+    url: "https://learnithub.uk/",
+    description:
+      "UK-based educational technology platform for IT courses with interactive learning experience.",
+    stack: ["React", "Next.js", "TypeScript", "Tailwind"],
+  },
+  {
+    title: "Trek Supplies",
+    url: "https://treksupplies.com/",
+    description:
+      "Outdoor & adventure e-commerce store with product catalog, filtering, and smooth checkout flow.",
+    stack: ["React", "TypeScript", "Redux", "REST API"],
+  },
+  {
+    title: "The Cardix",
+    url: "https://thecardix.com/",
+    description:
+      "Digital card platform with customizable templates and modern user-friendly interface.",
+    stack: ["React", "Next.js", "TypeScript", "Tailwind"],
+  },
+  {
+    title: "Softora",
+    url: "https://softora.eu/",
+    description:
+      "European software solutions company website with clean design and service presentations.",
+    stack: ["React", "TypeScript", "Next.js", "SCSS"],
+  },
+  {
+    title: "Jubiva",
+    url: "https://jubiva.com/",
+    description:
+      "E-commerce platform with modern product showcases, dynamic catalog, and seamless UX.",
+    stack: ["React", "TypeScript", "Redux", "Tailwind"],
+  },
+  {
+    title: "Boxelio",
+    url: "https://boxelio.com/",
+    description:
+      "Subscription box service platform with interactive product discovery and ordering system.",
+    stack: ["React", "Next.js", "TypeScript", "REST API"],
+  },
+  {
+    title: "Peak Gear",
+    url: "https://peak-gear.com/",
+    description:
+      "Sports & outdoor gear e-commerce with advanced filtering, product pages, and responsive design.",
+    stack: ["React", "TypeScript", "Redux", "Tailwind", "REST API"],
+  },
 ];
 
 export const experience = [
