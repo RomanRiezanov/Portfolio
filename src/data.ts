@@ -8,7 +8,7 @@ export const personalInfo = {
   github: "https://github.com/RomanRiezanov",
   linkedin: "https://www.linkedin.com/in/roman-riezanov-789928157/",
   telegram: "https://t.me/RomanRiezanov",
-  resumePath: "/CV_Roman_Riezanov.pdf",
+  resumePath: "/CV_Roman Riezanov_Frontend_developer.pdf",
 };
 
 export const skillCategories = [
