@@ -48,7 +48,7 @@ export const projects = [
     url: "https://megasport.ua/",
     description:
       "Major Ukrainian sports retailer — e-commerce platform with extensive product catalog, filtering, and seamless checkout.",
-    stack: ["React", "Next.js", "TypeScript", "Redux", "REST API"],
+    stack: ["React", "TypeScript", "Redux", "REST API"],
   },
   {
     title: "Thrive Store",
@@ -62,7 +62,7 @@ export const projects = [
     url: "https://readiverses.com/",
     description:
       "Digital reading platform focused on delivering engaging content experiences with clean, accessible UI.",
-    stack: ["React", "Next.js", "TypeScript", "SCSS"],
+    stack: ["React", "TypeScript", "SCSS"],
   },
   {
     title: "Echo Gold",
@@ -76,21 +76,21 @@ export const projects = [
     url: "https://sportivestores.com/",
     description:
       "Multi-brand sports retail platform with dynamic catalog, advanced search, and responsive design.",
-    stack: ["React", "Next.js", "TypeScript", "Redux", "REST API"],
+    stack: ["React", "TypeScript", "Redux", "REST API"],
   },
   {
     title: "Aivanta",
     url: "https://aivanta.uk/",
     description:
       "AI-powered technology company website with modern design and interactive product presentations.",
-    stack: ["React", "TypeScript", "Next.js", "Tailwind"],
+    stack: ["React", "TypeScript", "Tailwind"],
   },
   {
     title: "ArtGenix",
     url: "https://art-genix.com/",
     description:
       "Creative AI-driven art platform with generative tools and interactive gallery experience.",
-    stack: ["React", "Next.js", "TypeScript", "Tailwind"],
+    stack: ["React", "TypeScript", "Tailwind"],
   },
   {
     title: "Inspire",
@@ -104,28 +104,28 @@ export const projects = [
     url: "https://learnithub.uk/",
     description:
       "UK-based educational technology platform for IT courses with interactive learning experience.",
-    stack: ["React", "Next.js", "TypeScript", "Tailwind"],
+    stack: ["React", "TypeScript", "Tailwind"],
   },
   {
     title: "Trek Supplies",
     url: "https://treksupplies.com/",
     description:
       "Outdoor & adventure e-commerce store with product catalog, filtering, and smooth checkout flow.",
-    stack: ["React", "TypeScript", "Redux", "REST API"],
+    stack: ["React", "Next.js", "TypeScript", "Redux", "REST API"],
   },
   {
     title: "The Cardix",
     url: "https://thecardix.com/",
     description:
       "Digital card platform with customizable templates and modern user-friendly interface.",
-    stack: ["React", "Next.js", "TypeScript", "Tailwind"],
+    stack: ["React", "TypeScript", "Tailwind"],
   },
   {
     title: "Softora",
     url: "https://softora.eu/",
     description:
       "European software solutions company website with clean design and service presentations.",
-    stack: ["React", "TypeScript", "Next.js", "SCSS"],
+    stack: ["React", "TypeScript", "SCSS"],
   },
   {
     title: "Jubiva",
@@ -139,7 +139,7 @@ export const projects = [
     url: "https://boxelio.com/",
     description:
       "Subscription box service platform with interactive product discovery and ordering system.",
-    stack: ["React", "Next.js", "TypeScript", "REST API"],
+    stack: ["React", "TypeScript", "REST API"],
   },
   {
     title: "Peak Gear",
