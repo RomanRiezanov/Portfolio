@@ -54,6 +54,7 @@ export const projects = [
   {
     title: "Megasport",
     url: "https://megasport.ua/",
+    image: "/projects/megasport.webp",
     description:
       "Major Ukrainian sports retailer — e-commerce platform with extensive product catalog, filtering, and seamless checkout.",
     stack: ["React", "TypeScript", "Redux", "REST API"],
@@ -61,6 +62,7 @@ export const projects = [
   {
     title: "Thrive Store",
     url: "https://thrivestore.co.uk/",
+    image: "/projects/thrivestore.webp",
     description:
       "UK-based e-commerce store with modern shopping experience, product showcases, and integrated payment solutions.",
     stack: ["React", "TypeScript", "Redux", "Tailwind", "REST API"],
@@ -68,6 +70,7 @@ export const projects = [
   {
     title: "Readiverses",
     url: "https://readiverses.com/",
+    image: "/projects/readiverses.webp",
     description:
       "Digital reading platform focused on delivering engaging content experiences with clean, accessible UI.",
     stack: ["React", "TypeScript", "SCSS"],
@@ -75,6 +78,7 @@ export const projects = [
   {
     title: "Echo Gold",
     url: "https://echo-gold.com/",
+    image: "/projects/echo-gold.webp",
     description:
       "Premium gold & jewelry e-commerce with elegant design, product showcases, and secure transactions.",
     stack: ["React", "TypeScript", "Redux", "Tailwind"],
@@ -82,6 +86,7 @@ export const projects = [
   {
     title: "Sportive Stores",
     url: "https://sportivestores.com/",
+    image: "/projects/sportivestores.webp",
     description:
       "Multi-brand sports retail platform with dynamic catalog, advanced search, and responsive design.",
     stack: ["React", "TypeScript", "Redux", "REST API"],
@@ -89,6 +94,7 @@ export const projects = [
   {
     title: "Aivanta",
     url: "https://aivanta.uk/",
+    image: "/projects/aivanta.webp",
     description:
       "AI-powered technology company website with modern design and interactive product presentations.",
     stack: ["React", "TypeScript", "Tailwind"],
@@ -96,6 +102,7 @@ export const projects = [
   {
     title: "ArtGenix",
     url: "https://art-genix.com/",
+    image: "/projects/art-genix.webp",
     description:
       "Creative AI-driven art platform with generative tools and interactive gallery experience.",
     stack: ["React", "TypeScript", "Tailwind"],
@@ -103,6 +110,7 @@ export const projects = [
   {
     title: "Inspire",
     url: "https://ai-inspire.com/",
+    image: "/projects/ai-inspire.webp",
     description:
       "AI-powered inspiration platform helping users discover creative ideas and content.",
     stack: ["React", "TypeScript", "Redux", "SCSS"],
@@ -110,6 +118,7 @@ export const projects = [
   {
     title: "Learn IT Hub",
     url: "https://learnithub.uk/",
+    image: "/projects/learnithub.webp",
     description:
       "UK-based educational technology platform for IT courses with interactive learning experience.",
     stack: ["React", "TypeScript", "Tailwind"],
@@ -117,6 +126,7 @@ export const projects = [
   {
     title: "Trek Supplies",
     url: "https://treksupplies.com/",
+    image: "/projects/treksupplies.webp",
     description:
       "Outdoor & adventure e-commerce store with product catalog, filtering, and smooth checkout flow.",
     stack: ["React", "Next.js", "TypeScript", "Redux", "REST API"],
@@ -124,6 +134,7 @@ export const projects = [
   {
     title: "The Cardix",
     url: "https://thecardix.com/",
+    image: "/projects/thecardix.webp",
     description:
       "Digital card platform with customizable templates and modern user-friendly interface.",
     stack: ["React", "TypeScript", "Tailwind"],
@@ -131,6 +142,7 @@ export const projects = [
   {
     title: "Softora",
     url: "https://softora.eu/",
+    image: "/projects/softora.webp",
     description:
       "European software solutions company website with clean design and service presentations.",
     stack: ["React", "TypeScript", "SCSS"],
@@ -138,6 +150,7 @@ export const projects = [
   {
     title: "Jubiva",
     url: "https://jubiva.com/",
+    image: "/projects/jubiva.webp",
     description:
       "E-commerce platform with modern product showcases, dynamic catalog, and seamless UX.",
     stack: ["React", "TypeScript", "Redux", "Tailwind"],
@@ -145,6 +158,7 @@ export const projects = [
   {
     title: "Boxelio",
     url: "https://boxelio.com/",
+    image: "/projects/boxelio.webp",
     description:
       "Subscription box service platform with interactive product discovery and ordering system.",
     stack: ["React", "TypeScript", "REST API"],
@@ -152,6 +166,7 @@ export const projects = [
   {
     title: "Peak Gear",
     url: "https://peak-gear.com/",
+    image: "/projects/peak-gear.webp",
     description:
       "Sports & outdoor gear e-commerce with advanced filtering, product pages, and responsive design.",
     stack: ["React", "TypeScript", "Redux", "Tailwind", "REST API"],

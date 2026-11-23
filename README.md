@@ -1,6 +1,16 @@
 # Roman Riezanov — Portfolio
 
-Modern, minimal single-page portfolio built with Vite + React + TypeScript.
+Personal portfolio of a Frontend Lead: skills, live projects, experience and contacts.
+
+Live: https://portfolio-navy-mu-91.vercel.app/
+
+## Tech Stack
+
+- React 19 + TypeScript
+- Vite 6
+- SCSS Modules and CSS custom properties (light and dark theme)
+- IntersectionObserver for scroll reveal, no animation libraries
+- Deployed on Vercel
 
 ## Quick Start
 
@@ -9,78 +19,39 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
-
 ## Scripts
 
-| Command         | Description              |
-| --------------- | ------------------------ |
-| `npm run dev`   | Start dev server         |
-| `npm run build` | TypeScript check + build |
-| `npm run preview` | Preview production build |
-| `npm run lint`  | Run ESLint               |
+| Command           | Description               |
+| ----------------- | ------------------------- |
+| `npm run dev`     | Start the dev server      |
+| `npm run build`   | Type check and build      |
+| `npm run preview` | Preview the production build |
+| `npm run lint`    | Run ESLint                |
 
 ## Project Structure
 
 ```
+public/
+├── projects/            — screenshots of live projects (WebP)
+└── CV_*.pdf             — downloadable resume
 src/
-├── components/
-│   ├── About/          — About section
-│   ├── Contact/        — Contact links + copy email
-│   ├── Experience/     — Work history timeline
-│   ├── Footer/         — Page footer
-│   ├── Header/         — Fixed navigation with mobile menu
-│   ├── Hero/           — Landing hero with CTA
-│   ├── Projects/       — Project cards grid
-│   ├── Section/        — Reusable section wrapper with scroll animation
-│   ├── Skills/         — Skill tags by category
-│   └── Icons.tsx       — SVG icon components
+├── data.ts              — all content: personal info, skills, projects, experience
 ├── hooks/
-│   └── useScrollReveal.ts — IntersectionObserver-based reveal animation
-├── styles/
-│   └── globals.scss    — CSS custom properties, reset, base styles
-├── App.tsx             — Root component assembling all sections
-├── data.ts             — All portfolio content in one place
-└── main.tsx            — Entry point
+│   └── useScrollReveal.ts
+├── screens/Home/
+│   ├── HomeScreen.tsx   — page composition
+│   └── components/      — Header, Hero, Skills, Projects, Experience, About, Contact, Footer, Section, Icons
+├── styles/globals.scss  — theme tokens, reset, base styles
+├── App.tsx
+└── main.tsx
 ```
 
-## What Was Removed (from frontend-core)
+## Updating Content
 
-- **All providers** — API, session, cart, cookie, currency, error, locale, payment, socket, storage, user, confirm
-- **Router** — react-router and all routing logic
-- **Layouts** — admin, guest, user layout wrappers
-- **Feature screens** — admin panel, home screen
-- **Shared components** — AdminTable, CookieConsent, PdfViewer, SocketExample
-- **UI components** — Button, Checkbox, CurrencySelector, Modal, Input, LanguageSelector, LazyVideo, Select, Spinner, Textarea, Toast, UploadFile
-- **i18n** — Lingui localization (de, en, fr, uk)
-- **Assets** — all SVG icons, admin icons
-- **Helpers** — format-date, getBase64ImageSrc, getImageUrl, truncate-string
-- **Hooks** — use-fingerprint, use-form, use-infinite-scroll-observer, use-component-did-update, and others
-- **Heavy dependencies** — axios, zod, react-router, react-modal, react-select, react-toastify, react-pdf, socket.io-client, fingerprintjs, jwt-decode, js-cookie, date-fns, lingui
+All text lives in `src/data.ts`. To add a project, add an entry to `projects` and put a 720×480 WebP screenshot in `public/projects/`.
 
-## What Was Simplified
+## Details
 
-- **Entry point** — from 50+ lines with 12 nested providers to 10 lines with a single `<App />`
-- **Dependencies** — from 25+ packages to 4 (react, react-dom, sass, vite)
-- **Architecture** — flat component structure, no abstractions, no providers, no routing
-- **Styling** — CSS custom properties + SCSS modules, no complex variable system
-- **Config** — clean vite.config.ts, single `@/` path alias
-
-## Tech Stack
-
-- **React 19** + **TypeScript**
-- **Vite 6** — build & dev server
-- **SCSS Modules** — scoped component styles
-- **IntersectionObserver** — scroll reveal animations (no extra library)
-- **CSS Custom Properties** — theming
-- **Google Fonts** — Inter
-
-## Design Decisions
-
-- One accent color scheme (blue)
-- Max content width: 1140px
-- Subtle scroll-triggered fade-in animations
-- Card hover effects (lift + shadow)
-- `prefers-reduced-motion` respected
-- Mobile-responsive with hamburger menu
-- PDF resume available for download from `/public`
+- Light and dark theme, starting from the system setting, with no flash on load
+- `prefers-reduced-motion` is respected
+- Responsive layout with a mobile menu

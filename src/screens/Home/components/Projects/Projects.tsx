@@ -7,11 +7,6 @@ import { Section } from "../Section/Section";
 
 import styles from "./Projects.module.scss";
 
-function getScreenshotUrl(url: string) {
-  const encoded = encodeURIComponent(url);
-  return `https://s.wordpress.com/mshots/v1/${encoded}?w=600&h=400`;
-}
-
 export function Projects() {
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
 
@@ -44,7 +39,9 @@ export function Projects() {
               <div className={styles.browserContent}>
                 {!failedImages.has(project.url) ? (
                   <img
-                    src={getScreenshotUrl(project.url)}
+                    src={project.image}
+                    width={720}
+                    height={480}
                     alt={`${project.title} preview`}
                     className={styles.screenshot}
                     loading="lazy"

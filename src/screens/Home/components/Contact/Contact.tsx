@@ -32,25 +32,24 @@ export function Contact() {
         </p>
 
         <div className={styles.links}>
-          <a
-            href={`mailto:${personalInfo.email}`}
-            className={styles.link}
-          >
-            <MailIcon size={18} />
-            {personalInfo.email}
+          <div className={styles.link}>
+            <a
+              href={`mailto:${personalInfo.email}`}
+              className={styles.emailText}
+            >
+              <MailIcon size={18} />
+              {personalInfo.email}
+            </a>
             <button
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                copyEmail();
-              }}
+              type="button"
+              onClick={copyEmail}
               className={`${styles.copyBtn} ${copied ? styles.copied : ""}`}
               aria-label="Copy email address"
               title={copied ? "Copied!" : "Copy email"}
             >
               {copied ? <CheckIcon size={14} /> : <CopyIcon size={14} />}
             </button>
-          </a>
+          </div>
 
           <a
             href={personalInfo.telegram}
