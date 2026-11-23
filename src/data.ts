@@ -3,7 +3,7 @@ export const personalInfo = {
   role: "Frontend Lead",
   location: "Bratislava, Slovakia",
   tagline:
-    "I build scalable, high-performance web applications with clean architecture and sharp attention to detail.",
+    "I lead frontend teams and build fast, scalable React & Next.js products with an AI-first workflow.",
   email: "romark6@gmail.com",
   github: "https://github.com/RomanRiezanov",
   linkedin: "https://www.linkedin.com/in/roman-riezanov-789928157/",
@@ -37,8 +37,16 @@ export const skillCategories = [
     items: ["Git", "Docker", "CI / CD", "Figma", "JIRA"],
   },
   {
-    name: "AI-Assisted Development",
-    items: ["Cursor AI", "GitHub Copilot"],
+    name: "AI-First Development",
+    items: [
+      "Claude Code (Skills, subagents, hooks)",
+      "MCP integrations",
+      "AI code review in CI/CD",
+      "Cursor",
+      "GitHub Copilot",
+      "ChatGPT",
+      "Gemini",
+    ],
   },
 ];
 
@@ -159,10 +167,12 @@ export const experience = [
         title: "Lead Front-End Developer",
         period: "Jan 2025 – Present",
         highlights: [
-          "Designed scalable frontend architecture using modern best practices",
-          "Led AI-assisted development adoption with Cursor AI across the team",
-          "Mentored engineers and fostered a high-performance development culture",
-          "Delivered complex UI logic, advanced animations, and seamless UX",
+          "Lead a team of 8 front-end engineers: technical direction, code review and mentoring, while staying hands-on in code",
+          "Designed a scalable frontend architecture; delivered core features, optimized performance and refactored legacy code",
+          "Moved the team to an AI-first workflow on Claude Code: shared CLAUDE.md rules, custom Skills, subagents and hooks versioned in the repo",
+          "Integrated MCP servers (GitLab, Jira, Figma, browser automation): an end-to-end flow from a Jira ticket and Figma design to a tested merge request",
+          "Built AI-powered GitLab CI/CD: automated Claude Code review on every MR, AI-generated MR descriptions and tests",
+          "Defined safe AI usage guidelines and ran internal workshops",
         ],
       },
       {
@@ -170,7 +180,7 @@ export const experience = [
         period: "Jan 2024 – Dec 2024",
         highlights: [
           "Developed dynamic, high-performance web applications with React",
-          "Built e-commerce websites for multiple product verticals",
+          "Built e-commerce websites for multiple product verticals, with carts and secure payment gateways",
           "Mentored junior developers on best practices and code quality",
         ],
       },
@@ -182,7 +192,9 @@ export const experience = [
       "Redux",
       "Tailwind",
       "Docker",
-      "CI/CD",
+      "GitLab CI/CD",
+      "Claude Code",
+      "MCP",
     ],
   },
   {
@@ -234,4 +246,4 @@ export const experience = [
 ];
 
 export const about =
-  "Frontend Lead with over 5 years of experience building web and mobile applications. My core strength is React and its ecosystem — TypeScript, Redux, Next.js — but I also work confidently with Vue, Angular, and React Native. I've designed frontend architectures, built design systems, and led teams through complex product deliveries. I bridge frontend and backend with hands-on Node.js experience. Focused on clean code, performance, and shipping products that matter.";
+  "Frontend Lead with 6+ years of experience building web and mobile applications, currently leading a team of 8 engineers. My core strength is React and its ecosystem — TypeScript, Redux, Next.js — but I also work confidently with Vue, Angular, and React Native. I've designed frontend architectures, built design systems, and led teams through complex product deliveries. I bridge frontend and backend with hands-on Node.js experience. I build AI into how the team works: Claude Code with shared rules and Skills, MCP integrations with our tools, and automated AI review on every merge request. Focused on clean code, performance, and shipping products that matter.";
